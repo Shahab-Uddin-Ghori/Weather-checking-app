@@ -8,20 +8,34 @@
   </head>
   <body>
     <main>
-        <!-- header  -->
+      <!-- header  -->
       <div class="header-conatiner">
         <div class="container-heading">
           <h1>Weather</h1>
           <div class="date-time">
-            Date: <span id="date"></span>   
-            Time: <span id="time"></span>
-            <p><span id="day"></span></p>
+            Date: <span id="date"></span> Time: <span id="time"></span>
           </div>
         </div>
       </div>
       <!-- main sec  -->
-      <div class="main-sec-container">
-
+      <div class="main-sec">
+        <div class="main-sec-container">
+          <div class="main-sec-top-text">
+            <p><span id="day"></span></p>
+            <p id="city">Karachi</p>
+          </div>
+          <div class="input-container">
+            <form action="" method="get">
+              <input
+                type="number"
+                required
+                placeholder="Enter Temperature Between -50c to 50c"
+                id="tem-inp"
+              />
+              <button id="check">Check</button>
+            </form>
+          </div>
+        </div>
       </div>
     </main>
     <script src="script.js"></script>
