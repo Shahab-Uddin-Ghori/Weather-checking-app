@@ -64,6 +64,7 @@ main{
     color: #fff;
     padding: .5rem;
     transition: all .2s ease-in-out;
+    border-radius: 4px;
 }
 #day:hover,
 #city:hover {
@@ -139,7 +140,31 @@ form{
     color: rgba(255, 255, 255, 0.905);
     background-color: rgba(0, 0, 0, 0.43);
     box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.479);
+    border-radius: 4px;
 }
 .emoji{
     font-size: 4rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 1rem;
+    width: 50%;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.43);
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.479);
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.footer-container a{
+    color: #fff;
 }
