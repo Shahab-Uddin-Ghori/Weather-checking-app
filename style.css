@@ -63,7 +63,16 @@ main{
     box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.479);
     color: #fff;
     padding: .5rem;
-
+    transition: all .2s ease-in-out;
+}
+#day:hover,
+#city:hover {
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.43);
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.479);
+    color: rgba(0, 0, 0, 0.527);
+    padding: .5rem;
 }
 #tem-inp{
     width: 30rem;
@@ -104,13 +113,30 @@ form{
     color: #fff;
     letter-spacing: 1px;
     cursor: pointer;
+    transition: all .2s ease-in-out;
 }
 #check:active {
     transform: scale(0.98);
+}
+#check:hover{
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.479);
+    background-color: rgba(255, 255, 255, 0.43);
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.479);
+    color: rgba(0, 0, 0, 0.655);
 }
 .output{
     font-size: 1rem;
     background-color: rgba(0, 0, 0, 0.43);
     margin-top: 2rem;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.479);
+}
+.greetingWelcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.905);
+    background-color: rgba(0, 0, 0, 0.43);
     box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.479);
 }
