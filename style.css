@@ -25,6 +25,7 @@ main{
     align-items:last baseline;
     background-color: rgba(255, 255, 255, 0.456);
     border: 1px solid rgba(255, 255, 255, 0.51);
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.479);
     backdrop-filter: blur(10px);
     padding: 1rem;
     border-radius: 4px;
@@ -44,6 +45,7 @@ main{
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.456);
     border: 1px solid rgba(255, 255, 255, 0.51);
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.479);
     backdrop-filter: blur(10px);
     padding: 1rem;
     border-radius: 4px;
@@ -57,6 +59,11 @@ main{
 #city {
     font-size: 3rem;
     font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.43);
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.479);
+    color: #fff;
+    padding: .5rem;
+
 }
 #tem-inp{
     width: 30rem;
@@ -84,7 +91,7 @@ form{
 .input-container input{
     border-radius: 4px;
     border: none;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.479);
 }
 #check{
     font-size: 1rem;
@@ -92,4 +99,18 @@ form{
     width: 8rem;
     border: none;
     border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.43);
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.479);
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#check:active {
+    transform: scale(0.98);
+}
+.output{
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.43);
+    margin-top: 2rem;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.479);
 }
