@@ -1,9 +1,9 @@
 // taking input via prompt as return on page as greeting/welcome
 let greetingWelcome = prompt("Enter Your Name");
 document.getElementById("greetingWelcome").innerText =
-  "Welcome " + greetingWelcome;
+  "Welcome. " + greetingWelcome;
 
-  // declaring function for date time and day
+// declaring function for date time and day
 function updateTime() {
   let currentTime = new Date();
   let hours = currentTime.getHours();
