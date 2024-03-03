@@ -55,8 +55,6 @@
   .greetingWelcome {
     font-size: 12px;
     align-self: flex-end;
-    justify-content: center;
-    align-items: center;
   }
   #tem-inp {
     width: 14rem;
