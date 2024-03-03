@@ -1,0 +1,100 @@
+/* for max screen 900px desktop/ipad */
+@media screen and (max-width: 900px) {
+  .container-heading {
+    margin-top: 1rem;
+  }
+  #day,
+  #city {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+  }
+
+  .greetingWelcome {
+    font-size: 12px;
+    padding: 8px;
+  }
+  #tem-inp {
+    width: 20rem;
+  }
+  .footer-container {
+    font-size: 12px;
+  }
+  .main-sec-container {
+    height: 25rem;
+    /* background-color: red; */
+    padding: 0.5rem;
+    gap: 1rem;
+  }
+}
+/* for max screen 600px mobile /smaller screen */
+
+@media screen and (max-width: 600px) {
+  .container-heading {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .container-heading {
+    padding: 0.5rem;
+  }
+  .container-heading h1 {
+    font-size: 1.5rem;
+  }
+  .main-sec-top-text {
+    display: flex;
+    height: 8rem;
+  }
+  #day,
+  #city {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+  }
+  .greetingWelcome {
+    font-size: 12px;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+  }
+  #tem-inp {
+    width: 14rem;
+    height: 1rem;
+    font-size: 12px;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  .footer-container {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+  }
+  .main-sec-container {
+    width: 82%;
+    /* background-color: red; */
+    padding: 1rem;
+    gap: 2rem;
+  }
+  #check {
+    font-size: 12px;
+    width: 6rem;
+  }
+  #emoji {
+    font-size: 2rem;
+  }
+  #output {
+    font-size: 12px;
+  }
+  .footer-container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .greetingWelcome {
+    font-size: 10px;
+  }
+  .footer-container p {
+    font-size: 10px;
+  }
+}
