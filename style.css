@@ -9,7 +9,7 @@
 }
 
 /* bg img for main  */
-main {
+body {
   background-image: url(./img/photo-1604949210966-9440c324823f.avif);
   background-size: cover;
   width: 100%;
@@ -180,8 +180,6 @@ footer {
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
-  position: fixed;
-  bottom: 1rem;
   width: 75%;
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.43);
@@ -189,6 +187,7 @@ footer {
   border-radius: 4px;
   color: #fff;
   letter-spacing: 1px;
+  margin-top: 2rem;
 }
 .footer-container a {
   color: #fff;
